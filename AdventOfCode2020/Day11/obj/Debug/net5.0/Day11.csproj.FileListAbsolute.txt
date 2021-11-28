@@ -1,0 +1,16 @@
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\bin\Debug\net5.0\Day11.exe
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\bin\Debug\net5.0\Day11.deps.json
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\bin\Debug\net5.0\Day11.runtimeconfig.json
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\bin\Debug\net5.0\Day11.runtimeconfig.dev.json
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\bin\Debug\net5.0\Day11.dll
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\bin\Debug\net5.0\ref\Day11.dll
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\bin\Debug\net5.0\Day11.pdb
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\obj\Debug\net5.0\Day11.csproj.AssemblyReference.cache
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\obj\Debug\net5.0\Day11.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\obj\Debug\net5.0\Day11.AssemblyInfoInputs.cache
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\obj\Debug\net5.0\Day11.AssemblyInfo.cs
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\obj\Debug\net5.0\Day11.csproj.CoreCompileInputs.cache
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\obj\Debug\net5.0\Day11.dll
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\obj\Debug\net5.0\ref\Day11.dll
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\obj\Debug\net5.0\Day11.pdb
+D:\Learning\Advent\Advent-of-code\AdventOfCode2020\Day11\obj\Debug\net5.0\Day11.genruntimeconfig.cache
