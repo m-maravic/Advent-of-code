@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "b78eae1e-fcfa-45d3-9524-df68f87b9af5": {
+      "ProjectGuid": "b78eae1e-fcfa-45d3-9524-df68f87b9af5",
+      "DisplayName": "Day1",
+      "ColorIndex": 0
+    },
+    "ea99e083-10b0-49ed-9259-d5298ed5647d": {
+      "ProjectGuid": "ea99e083-10b0-49ed-9259-d5298ed5647d",
+      "DisplayName": "Day2",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
