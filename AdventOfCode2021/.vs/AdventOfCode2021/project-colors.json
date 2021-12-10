@@ -10,7 +10,12 @@
       "ProjectGuid": "ea99e083-10b0-49ed-9259-d5298ed5647d",
       "DisplayName": "Day2",
       "ColorIndex": 1
+    },
+    "ccc95f84-6e17-48ab-b18a-d07fa0f38edc": {
+      "ProjectGuid": "ccc95f84-6e17-48ab-b18a-d07fa0f38edc",
+      "DisplayName": "Day3",
+      "ColorIndex": 2
     }
   },
-  "NextColorIndex": 2
+  "NextColorIndex": 3
 }
