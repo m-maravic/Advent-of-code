@@ -1,0 +1,16 @@
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\bin\Debug\net6.0\input.txt
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\bin\Debug\net6.0\Day4.exe
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\bin\Debug\net6.0\Day4.deps.json
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\bin\Debug\net6.0\Day4.runtimeconfig.json
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\bin\Debug\net6.0\Day4.dll
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\bin\Debug\net6.0\Day4.pdb
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\obj\Debug\net6.0\Day4.csproj.AssemblyReference.cache
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\obj\Debug\net6.0\Day4.GeneratedMSBuildEditorConfig.editorconfig
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\obj\Debug\net6.0\Day4.AssemblyInfoInputs.cache
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\obj\Debug\net6.0\Day4.AssemblyInfo.cs
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\obj\Debug\net6.0\Day4.csproj.CoreCompileInputs.cache
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\obj\Debug\net6.0\Day4.dll
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\obj\Debug\net6.0\refint\Day4.dll
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\obj\Debug\net6.0\Day4.pdb
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\obj\Debug\net6.0\Day4.genruntimeconfig.cache
+D:\Learning\Advent\Advent-of-code\AdventOfCode2022\Day1\Day4\obj\Debug\net6.0\ref\Day4.dll
