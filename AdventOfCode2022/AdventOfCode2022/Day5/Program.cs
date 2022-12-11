@@ -1,5 +1,4 @@
 ﻿using Day5;
-using System.Text.RegularExpressions;
 
 var input = File.ReadLines(AppDomain.CurrentDomain.BaseDirectory + "/input.txt").ToList();
 

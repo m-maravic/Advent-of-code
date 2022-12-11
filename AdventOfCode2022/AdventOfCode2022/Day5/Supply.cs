@@ -5,12 +5,12 @@ namespace Day5;
 
 public class Supply
 {
-    private Regex cratesRegex = new Regex(@"(?:\s{4})|(?:\[\w\])");
+    private readonly Regex cratesRegex = new (@"(?:\s{4})|(?:\[\w\])");
     public Dictionary<int, Stack<string>> Crates { get; } = new Dictionary<int, Stack<string>>();
 
     public string GetTopItems()
     {
-        StringBuilder sb = new StringBuilder();
+        StringBuilder sb = new ();
         foreach(var crate in Crates.Values)
         {
             sb.Append(crate.Peek());
