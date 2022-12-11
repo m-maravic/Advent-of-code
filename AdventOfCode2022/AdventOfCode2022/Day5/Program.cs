@@ -18,7 +18,8 @@ for(int k=input.Count-1; k>=0; k--)
 
 while (procedures.Count > 0)
 {
-    supply.Reorder(procedures.Pop());
+    supply.ReorderUsingCrateMover9001(procedures.Pop());
+    //supply.ReorderUsingCrateMover9000(procedures.Pop());
 }
 
-Console.WriteLine($"Part one result: {0}", supply.GetTopItems());
+Console.WriteLine($"Result: " + supply.GetTopItems());

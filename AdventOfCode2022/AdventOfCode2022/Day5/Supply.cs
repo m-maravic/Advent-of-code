@@ -13,18 +13,36 @@ public class Supply
         StringBuilder sb = new StringBuilder();
         foreach(var crate in Crates.Values)
         {
-            sb.Append(crate.Pop());
+            sb.Append(crate.Peek());
         }
 
         return sb.ToString();
     }
 
-    public void Reorder(ReorderInstruction instruction)
+    public void ReorderUsingCrateMover9000(ReorderInstruction instruction)
     {
         for(int i=0; i< instruction.NumberOfItemsToMove; i++)
         {
             var itemToMove = Crates[instruction.StartingPosition].Pop();
             Crates[instruction.FinalPosition].Push(itemToMove);
+        }
+    }
+
+    public void ReorderUsingCrateMover9001(ReorderInstruction instruction)
+    {
+        var tempList = new List<string>();
+
+        for (int i = 0; i < instruction.NumberOfItemsToMove; i++)
+        {
+            var itemToMove = Crates[instruction.StartingPosition].Pop();
+            tempList.Add(itemToMove);
+        }
+
+        tempList.Reverse();
+
+        foreach(var item in tempList)
+        {
+            Crates[instruction.FinalPosition].Push(item);
         }
     }
 
