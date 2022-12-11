@@ -31,5 +31,3 @@ foreach (string line in File.ReadLines(AppDomain.CurrentDomain.BaseDirectory + "
 }
 
 Console.WriteLine($"Part two result: {counter}");
-
-
