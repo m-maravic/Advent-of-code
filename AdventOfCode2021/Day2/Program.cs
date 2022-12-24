@@ -1,5 +1,4 @@
-﻿
-string[] inputList = File.ReadAllLines(@"D:\Learning\Advent\Advent-of-code\AdventOfCode2021\Day2\input.txt");
+﻿string[] inputList = File.ReadAllLines(@"D:\Learning\Advent\Advent-of-code\AdventOfCode2021\Day2\input.txt");
 Console.WriteLine("Part one: {0}", GetPartOneSolution(inputList));
 Console.WriteLine("Part two: {0}", GetPartTwoSolution(inputList));
 
