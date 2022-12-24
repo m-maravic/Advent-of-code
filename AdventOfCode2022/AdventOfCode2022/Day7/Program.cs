@@ -23,11 +23,11 @@ foreach (string command in File.ReadLines(AppDomain.CurrentDomain.BaseDirectory 
         continue;
     }
 
-    foreach(var index in directoriesToUpdate)
+    foreach (var index in directoriesToUpdate)
     {
         directories[index].AddFile(GetFileSizeFromComamnd(command));
     }
-    
+
 }
 
 var partOne = directories.Where(d => d.Size <= 100000).Sum(d => d.Size);
@@ -41,7 +41,6 @@ var emptySpace = fileSystemSize - directories[0].Size;
 var partTwo = directories.Where(d => emptySpace + d.Size >= updateSize).Min(d => d.Size);
 
 Console.WriteLine("Part two result " + partTwo);
-
 
 
 int GetFileSizeFromComamnd(string command)
