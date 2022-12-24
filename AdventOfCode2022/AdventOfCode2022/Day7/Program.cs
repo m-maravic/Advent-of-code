@@ -1,7 +1,7 @@
 ﻿using Directory = Day7.Directory;
 
 var directories = new List<Directory>();
-var directoriesToUpdate = new List<int>();
+var openedDirectories = new List<int>();
 
 foreach (string command in File.ReadLines(AppDomain.CurrentDomain.BaseDirectory + "/input.txt"))
 {
@@ -12,22 +12,21 @@ foreach (string command in File.ReadLines(AppDomain.CurrentDomain.BaseDirectory 
 
     if (command.Contains(".."))
     {
-        directoriesToUpdate.RemoveAt(directoriesToUpdate.Count - 1);
+        openedDirectories.RemoveAt(openedDirectories.Count - 1);
         continue;
     }
 
     if (command.Contains("$ cd"))
     {
         directories.Add(new Directory(GetFileNameFromComamnd(command), 0));
-        directoriesToUpdate.Add(directories.Count - 1);
+        openedDirectories.Add(directories.Count - 1);
         continue;
     }
 
-    foreach (var index in directoriesToUpdate)
+    foreach (var index in openedDirectories)
     {
         directories[index].AddFile(GetFileSizeFromComamnd(command));
     }
-
 }
 
 var partOne = directories.Where(d => d.Size <= 100000).Sum(d => d.Size);
@@ -41,7 +40,6 @@ var emptySpace = fileSystemSize - directories[0].Size;
 var partTwo = directories.Where(d => emptySpace + d.Size >= updateSize).Min(d => d.Size);
 
 Console.WriteLine("Part two result " + partTwo);
-
 
 int GetFileSizeFromComamnd(string command)
 {
